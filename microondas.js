@@ -33,7 +33,7 @@ function microondas(p,m){
       console.log('Tempo insuficiente para o preparo do alimento.')
     }
     else if (p == 'feijão' && m>=36) {
-      console.log('Kabumm!')ex
+      console.log('Kabumm!')
     }
     else if ( p== 'brigadeiro' && m>16 && m<24) {
       console.log('A comida queimou!')
@@ -47,7 +47,8 @@ function microondas(p,m){
     else if (p !== 'brigadeiro' && p !== 'macarrão' && m !== 'carne' && a !== 'feijão' && a !== 'brigadeiro') {
       console.log('Prato inexiste!')
     }
-    else {console.log('Prato pronto, bom apetite!!!')}
-  };
+    else {console.log('Prato pronto, bom apetite!!!')
+  }
+  }
   
   microondas('macarrão', 2);
