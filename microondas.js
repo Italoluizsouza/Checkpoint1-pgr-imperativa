@@ -51,4 +51,4 @@ function microondas(p,m){
   }
   }
   
-  microondas('macarrão', 2);
+  microondas('brigadeiro', 8);
